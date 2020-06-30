@@ -1,184 +1,161 @@
-    * {
-        padding: 0;
-        margin: 0;
-        color: #2c2c2c;
-        font-family: Jost;
-        text-decoration: none;
-    }
-    
-    nav a {
-        text-decoration: none;
-        color: #2c2c2c
-    }
-    
-    nav li {
-        padding-right: 10px;
-    }
-    
-    .navvar-item:last-child {
-        padding-right: 0px;
-    }
-    
-    .navbar-item a:hover {
-        color: orange;
-        text-decoration: overline;
-        font-weight: 400;
-        font-size: 20px;
-    }
-    
-    .photo img {
-        clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-    }
-    
-    header a {
-        padding-right: 10px;
-    }
-    
-    .header-info {
-        margin: auto 0px;
-    }
-    
-    .aboutMeInfo p {
-        margin: 0px
-    }
-    
-    .span-title {
-        margin-right: 20px;
-        font-weight: bold;
-        width: 30%;
-    }
-    
-    header p {
-        padding-top: 4px;
-    }
-    
-    .modal__contact {
-        display: none;
-    }
-    
-    .mainHr {
-        margin-top: 50px;
-        border: 1px solid #cfcece;
-    }
-    
-    .sectionHr {
-        margin: 10px 0;
-        border: 1px solid #cfcece;
-    }
-    
-    .span__main {
-        font-size: 40px;
-        font-weight: 600;
-    }
-    
-    .span__symbol {
-        color: orange;
-        font-weight: bold;
-        font-size: 50px;
-    }
-    
-    .span__date {
-        font-size: 15px;
-        font-weight: 500;
-    }
-    
-    .span__section {
-        font-weight: 400;
-        margin-top: 15px;
-    }
-    
-    .span__section-title {
-        font-weight: 700;
-        font-size: 20px;
-    }
-    
-    .portfolio-img {
-        overflow: hidden;
-    }
-    
-    .portfolio-img img {
-        width: 250px;
-        height: 250px;
-        object-fit: cover;
-    }
-    
-    .anim {
-        opacity: 0;
-        visibility: hidden;
-        transition: .55s opacity, .55s visibility;
-        transition-duration: 1s;
-        transition-delay: 0.5s;
-    }
-    
-    .cssAnimation {
-        opacity: 1;
-        visibility: visible;
-    }
-    
-    .portfolioGropup li:hover {
-        text-decoration: underline;
-        color: orange
-    }
-    
-    .portfolioGropup li {
-        border: none;
-        padding: 5px;
-        font-weight: 500;
-    }
-    
-    .portfolio__modal {
-        display: none;
-        position: fixed;
-        z-index: 1;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgb(56, 56, 56, 0.9);
-        overflow: auto;
-        transition-duration: 1s;
-    }
-    
-    .active {
-        display: block;
-        position: fixed;
-        z-index: 1;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgb(56, 56, 56, 0.9);
-        overflow: auto;
-        transition-duration: 1s;
-    }
-    
-    .modalContent {
-        background-color: #fff;
-        border: 1px solid gray;
-        margin: 15% auto;
-        padding: 20px;
-        width: 40%;
-    }
-    
-    .close {
-        color: #aaa;
-        float: right;
-        font-size: 20px;
-        font-weight: bold;
-    }
-    
-    .skills__img img {
-        width: 100%;
-        cursor: pointer
-    }
-    
-    .img__active {
-        transform: scale(2);
-        transition-duration: 1s;
-        z-index: 1;
-        position: absolute;
-    }
-    
-    button a {
-        color: #2c2c2c
-    }
+        * {
+            padding: 0;
+            margin: 0;
+            color: #2c2c2c;
+            font-family: Jost;
+            text-decoration: none;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #2c2c2c
+        }
+        
+        nav li {
+            padding-right: 10px;
+        }
+        
+        .navvar-item:last-child {
+            padding-right: 0px;
+        }
+        
+        .navbar-item a:hover {
+            color: orange;
+            text-decoration: overline;
+            font-weight: 400;
+            font-size: 20px;
+        }
+        
+        .photo img {
+            clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+        }
+        
+        header a {
+            padding-right: 10px;
+        }
+        
+        .header-info {
+            margin: auto 0px;
+        }
+        
+        .aboutMeInfo p {
+            margin: 0px
+        }
+        
+        .span-title {
+            margin-right: 20px;
+            font-weight: bold;
+            width: 30%;
+        }
+        
+        header p {
+            padding-top: 4px;
+        }
+        
+        .mainHr {
+            margin-top: 20px;
+            border: 1px solid #cfcece;
+        }
+        
+        .sectionHr {
+            margin: 10px 0;
+            border: 1px solid #cfcece;
+        }
+        
+        .span__main {
+            font-size: 40px;
+            font-weight: 600;
+        }
+        
+        .span__symbol {
+            color: orange;
+            font-weight: bold;
+            font-size: 50px;
+        }
+        
+        .span__date {
+            font-size: 15px;
+            font-weight: 500;
+        }
+        
+        .span__section {
+            font-weight: 400;
+            margin-top: 15px;
+        }
+        
+        .span__section-title {
+            font-weight: 700;
+            font-size: 20px;
+        }
+        
+        .portfolio-img {
+            overflow: hidden;
+        }
+        
+        .portfolio-img img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        .anim {
+            opacity: 0;
+            visibility: hidden;
+            transition: .55s opacity, .55s visibility;
+            transition-duration: 1s;
+            transition-delay: 0.5s;
+        }
+        
+        .cssAnimation {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .portfolioGropup li:hover {
+            text-decoration: underline;
+            color: orange
+        }
+        
+        .portfolioGropup li {
+            border: none;
+            padding: 5px;
+            font-weight: 500;
+        }
+        
+        .skills__img img {
+            width: 100%;
+            cursor: pointer
+        }
+        
+        .img__active {
+            transform: scale(2);
+            transition-duration: 1s;
+            z-index: 1;
+            position: absolute;
+        }
+        
+        button a {
+            color: #2c2c2c
+        }
+        
+        @media screen and (max-width:765px) {
+            .photo img {
+                width: 90%;
+                height: 80%;
+            }
+            body {
+                text-align: center;
+            }
+            .span__main {
+                font-size: 25px;
+            }
+            .span__symbol {
+                font-size: 30px;
+            }
+            .list-group {
+                margin: 0 auto;
+            }
+            .portfolio-img img {
+                width: 100%;
+            }
+        }
